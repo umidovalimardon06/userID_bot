@@ -23,7 +23,7 @@ async def send_user_id(message: types.Message):
 @dp.message()
 async def echo(message: types.Message):
     user = message.from_user
-    # ID ni kopyalash uchun HTML formatda yuboramiz
+    # ID ni kopyalash uchun HTML formatda yuboramiz!
     await message.answer(f"Here is your ID: <code>{user.id}</code>")
 
 ###################################################################

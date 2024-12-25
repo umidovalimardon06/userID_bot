@@ -6,7 +6,7 @@ from asyncio import run
 
 # Bot sozlamalari
 bot = Bot(
-    token="7596639329:AAGgXFoQ5g5R0suzp7EkDB9zOFnpyVGj3wY",
+    token="7153172045:AAF2Hx05lB7QsR1wEIRTHjvPxLAbzl1zivY",
     session=AiohttpSession(),
     default=DefaultBotProperties(parse_mode="HTML")  # HTML formatni o'rnatamiz
 )
